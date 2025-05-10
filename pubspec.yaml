@@ -1,0 +1,83 @@
+name: alloservices
+description: "A new Flutter project."
+publish_to: 'none'
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  http: ^1.3.0
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.6
+  intl_phone_field: ^3.2.0
+  smooth_page_indicator: ^1.1.0
+  get: ^4.6.5
+  firebase_auth: ^5.5.2
+  google_sign_in: ^6.3.0
+  cloud_functions: ^5.5.0
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+  google_nav_bar: ^5.0.7
+  flutter_svg: ^2.0.7
+  shared_preferences: ^2.0.15
+  image_picker: ^1.1.2
+  firebase_core: ^3.13.0
+  firebase_crashlytics: ^4.3.5
+  firebase_database: ^11.3.5
+  firebase_storage: ^12.0.0
+  cloud_firestore: ^5.6.6
+  intl_utils: ^2.8.10
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+
+  assets:
+    - assets/logo.png
+    - assets/logo2.png
+    - assets/onb1.png
+    - assets/onb2.png
+    - assets/onb3.png
+    - assets/apple.png
+    - assets/google.png
+    - assets/cleaning12.png
+    - assets/icons/antinuisible.png
+    - assets/icons/arrow.png
+    - assets/icons/cleaning.png
+    - assets/icons/climatisation.png
+    - assets/icons/comptabilite.png
+    - assets/icons/electrecity.png
+    - assets/icons/garden.png
+    - assets/icons/guard.png
+    - assets/icons/locksmith.png
+    - assets/icons/surveillance.png
+    - assets/images/cleaning_home.png
+    - assets/images/cleaning_post_construction.png
+    - assets/images/cleaning_office.png
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/interbold.ttf
+        - asset: fonts/intermedium.ttf
+        - asset: fonts/intersemibold.ttf
+        - asset: fonts/interregular.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_foreground: "assets/logo.png"
+  adaptive_icon_background: "#6759FF"
